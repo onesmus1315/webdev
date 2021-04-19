@@ -1,0 +1,239 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.repo-nav label{
+    display: none;
+    background-color: rebeccapurple;
+    height: 10%;
+    color: white;
+    cursor: pointer;
+    font-size: 40px;
+}
+#toggle{
+    display: none;
+}
+nav{
+    background-color: rebeccapurple;
+    height: 93px;
+}
+
+nav ul{
+    display: inline-flex;
+    text-align: center;
+}
+nav ul li{
+    list-style: none;
+    text-transform: uppercase;
+    
+}
+nav ul li a{
+    color: yellow;
+    text-decoration: none;
+    display: block;
+    padding-top: 37px;
+    height: 55px;
+    width: 150px;
+    text-align: center;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+.sec1{
+    width: 100%;
+    height: 100%;
+}
+.sec1 .img .link{
+    position: absolute;
+    left: 40%px;
+    top: 30%;
+}
+
+.sec1 .img .txt{
+    position: absolute;
+    left: 30%;
+    top: 40%;
+    z-index: 10px;
+    color: white;
+}
+.sec2{
+    border: 5px solid blanchedalmond;
+    display: -webkit-box;
+    width: 99%;
+    -webkit-box-orient: horizontal;
+}
+.sec2 .img1{
+    -webkit-box-flex: 1;
+}
+.sec1 .img2{
+    -webkit-box-flex: 1;
+}
+.sec2 .img3{
+    -webkit-box-flex: 1;
+}
+.sec2 a{
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+.sec2 a:hover{
+    background-color: gray;
+}
+.container_3{
+    display: -webkit-box;
+    background-color: grey;
+    width: 100%;
+    
+    
+}
+.container_3 .sec1{
+    -webkit-box-flex: 1;
+    width: 23%;
+    padding-left: 4px;
+}
+.container_3 .sec22{
+    -webkit-box-flex: 1;
+    width: 23%;
+}
+.container_3 .sec3{
+    -webkit-box-flex: 1;
+    width: 23%;
+}
+.container_3 .sec5{
+    -webkit-box-flex: 1;
+    width: 23%;
+    padding-right: 4px;
+}
+.container_3 li{
+    list-style: none;
+    padding-top: 20px;
+}
+.container_3 a{
+    text-decoration: none;
+    color: thistle;
+}
+.container_3 a:hover{
+    text-decoration: underline;
+}
+footer{
+    background-color: grey;
+    text-align: center;
+}
+footer h4{
+    color: blanchedalmond;
+}
+footer a{
+    text-decoration: none;
+    color: darkgray;
+}
+footer li{
+    list-style: none;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+.check{
+    display: none;
+}
+form{
+    text-align: center;
+    font-size: larger;
+    margin-top: 72px;
+    background-color: none;
+    height: 100%;
+}
+fieldset{
+    border: none;
+    text-align: center;
+    height: 100%;
+}
+.repo-nav #img{
+    display: none;
+}
+input{
+    border: none;
+    padding: 37px;
+    border-bottom: 2px solid blueviolet;
+    width: 60%;
+}
+input:active{
+    border: none;
+}
+button{
+    margin-top: 37px;
+    background-color: thistle;
+    border-radius: 20px;
+    width: 100px;
+}
+h6{text-align: center;}
+h1{color: red;
+    position: absolute;
+    left: -42%;
+    top: -80%;
+    z-index: 10px;
+    text-decoration: underline;
+}
+@media only screen and (max-width:700px){
+    .repo-nav{
+        background-color: blue;
+        height: 50px;
+    }
+    .repo-nav #img{
+        display: inline-flex;
+
+    }
+    .repo-nav label{
+        display: block;
+        float: right;
+        left: 100%;
+    }
+    #toggle{
+        display: none;
+    }
+    .nav{
+        display: none;
+    }
+    input[type="checkbox"]:checked ~ .nav{
+        display: block;
+    
+      }
+    .nav ul{
+        text-align: center;
+        display: block;
+        position: absolute;
+        z-index: 20px;
+        background-color: rebeccapurple;
+        width: 100%;
+    }
+    .nav ul li img{
+        display: none;
+    }
+    .nav ul li label{
+        float: right;
+
+    }
+    .nav ul li a{
+        width: 100%;
+    }
+    .nav ul li:hover{
+        background-color: blue;
+    }
+    .sec1 .img .txt h2{
+        display: none;
+    }
+    .sec2{
+        background-color: gray;
+        -webkit-box-orient: vertical;
+    }
+    .container_3{
+        -webkit-box-orient: vertical;
+        padding-left: 20px;
+    }
+    form{
+        width: 100%;
+    }
+    body{
+        width: 100%;
+    }
+
+}
